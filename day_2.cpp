@@ -1,8 +1,6 @@
 #include<iostream>
 #include<stack>
 #include<string>
-#include<sstream>
-
 
 using namespace std;
 
@@ -32,7 +30,7 @@ int main(){
     string st;
     cout<<"Enter String: "<<endl;
     cin>>st;
-    int result = is_valid(st);
+    bool result = is_valid(st);
     if(result){
         cout<<"String is Valid!";
     }
